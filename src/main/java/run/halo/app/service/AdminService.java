@@ -7,8 +7,6 @@ import run.halo.app.model.params.LoginParam;
 import run.halo.app.model.params.ResetPasswordParam;
 import run.halo.app.security.token.AuthToken;
 
-import javax.servlet.http.HttpServletResponse;
-
 /**
  * Admin service interface.
  *
@@ -27,7 +25,7 @@ public interface AdminService {
 
     String APPLICATION_CONFIG_NAME = "application.yaml";
 
-    String LOG_PATH = "logs/spring.log";
+    String LOG_PATH = "logs/tbjBlog.log";
 
     /**
      * Authenticates.
